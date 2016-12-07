@@ -1,0 +1,195 @@
+﻿生成启动时间为 2016/9/23 15:13:38。
+     1>项目“D:\DESIGN\video code\JM_debug\ldecod.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (.\bin\) contains files shared from another project (lencod.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\DesignTool\vs2013\VC\bin\CL.exe /c /Ildecod/inc /Ilcommon/inc /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\ldecod/Debug/" /Fd".\ldecod/Debug/vc120.pdb" /FR".\bin\\" /Gd /TC /analyze- /errorReport:prompt ldecod\src\annexb.c ldecod\src\biaridecod.c ldecod\src\block.c ldecod\src\cabac.c ldecod\src\context_ini.c ldecod\src\erc_api.c ldecod\src\erc_do_i.c ldecod\src\erc_do_p.c ldecod\src\errorconcealment.c ldecod\src\filehandle.c ldecod\src\fmo.c ldecod\src\header.c ldecod\src\image.c ldecod\src\ldecod.c ldecod\src\leaky_bucket.c ldecod\src\loopFilter.c ldecod\src\macroblock.c ldecod\src\mbuffer.c ldecod\src\mb_access.c ldecod\src\memalloc.c ldecod\src\nal.c ldecod\src\nalu.c ldecod\src\nalucommon.c ldecod\src\nal_part.c ldecod\src\output.c ldecod\src\parset.c ldecod\src\parsetcommon.c ldecod\src\rtp.c ldecod\src\sei.c ldecod\src\vlc.c
+         annexb.c
+     1>ldecod\src\annexb.c(162): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>ldecod\src\annexb.c(205): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>ldecod\src\annexb.c(207): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+         biaridecod.c
+     1>ldecod\src\biaridecod.c(175): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+         block.c
+     1>D:\DESIGN\video code\JM_debug\ldecod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         cabac.c
+         context_ini.c
+         erc_api.c
+         erc_do_i.c
+         erc_do_p.c
+         errorconcealment.c
+     1>D:\DESIGN\video code\JM_debug\ldecod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         filehandle.c
+     1>D:\DESIGN\video code\JM_debug\ldecod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         fmo.c
+         header.c
+         image.c
+     1>D:\DESIGN\video code\JM_debug\ldecod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>ldecod\src\image.c(199): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>ldecod\src\image.c(869): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\sys/timeb.h(131) : 参见“_ftime64”的声明
+     1>ldecod\src\image.c(1071): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\sys/timeb.h(131) : 参见“_ftime64”的声明
+     1>ldecod\src\image.c(1078): warning C4244: “=”: 从“time_t”转换到“int”，可能丢失数据
+         ldecod.c
+     1>D:\DESIGN\video code\JM_debug\ldecod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>ldecod\src\ldecod.c(108): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>ldecod\src\ldecod.c(236): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>ldecod\src\ldecod.c(238): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>ldecod\src\ldecod.c(243): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>ldecod\src\ldecod.c(244): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>ldecod\src\ldecod.c(247): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>ldecod\src\ldecod.c(248): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>ldecod\src\ldecod.c(251): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>ldecod\src\ldecod.c(252): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>ldecod\src\ldecod.c(257): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>ldecod\src\ldecod.c(258): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>ldecod\src\ldecod.c(261): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>ldecod\src\ldecod.c(266): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>ldecod\src\ldecod.c(267): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>ldecod\src\ldecod.c(279): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>ldecod\src\ldecod.c(284): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>ldecod\src\ldecod.c(285): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>ldecod\src\ldecod.c(288): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>ldecod\src\ldecod.c(289): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>ldecod\src\ldecod.c(294): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>ldecod\src\ldecod.c(322): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>ldecod\src\ldecod.c(324): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>ldecod\src\ldecod.c(339): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>ldecod\src\ldecod.c(397): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>ldecod\src\ldecod.c(398): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>ldecod\src\ldecod.c(400): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>ldecod\src\ldecod.c(402): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>ldecod\src\ldecod.c(417): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>ldecod\src\ldecod.c(421): warning C4996: '_strdate': This function or variable may be unsafe. Consider using _strdate_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\time.h(198) : 参见“_strdate”的声明
+     1>ldecod\src\ldecod.c(424): warning C4996: '_strtime': This function or variable may be unsafe. Consider using _strtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\time.h(202) : 参见“_strtime”的声明
+     1>ldecod\src\ldecod.c(450): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>ldecod\src\ldecod.c(451): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>ldecod\src\ldecod.c(518): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>ldecod\src\ldecod.c(528): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>ldecod\src\ldecod.c(534): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>ldecod\src\ldecod.c(594): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+         leaky_bucket.c
+     1>D:\DESIGN\video code\JM_debug\ldecod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         loopFilter.c
+         macroblock.c
+     1>D:\DESIGN\video code\JM_debug\ldecod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>ldecod\src\macroblock.c(2252): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>ldecod\src\macroblock.c(2264): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>ldecod\src\macroblock.c(2269): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>ldecod\src\macroblock.c(2277): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>ldecod\src\macroblock.c(2290): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         mbuffer.c
+         mb_access.c
+         memalloc.c
+     1>ldecod\src\memalloc.c(364): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+         正在生成代码...
+         正在编译...
+         nal.c
+     1>D:\DESIGN\video code\JM_debug\ldecod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         nalu.c
+         nalucommon.c
+         nal_part.c
+     1>D:\DESIGN\video code\JM_debug\ldecod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         output.c
+     1>D:\DESIGN\video code\JM_debug\ldecod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         parset.c
+         parsetcommon.c
+         rtp.c
+     1>D:\DESIGN\video code\JM_debug\ldecod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>ldecod\src\rtp.c(119): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>ldecod\src\rtp.c(121): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\DesignTool\vs2013\VC\include\stdio.h(346) : 参见“_snprintf”的声明
+         sei.c
+     1>D:\DESIGN\video code\JM_debug\ldecod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         vlc.c
+     1>D:\DESIGN\video code\JM_debug\ldecod\inc\contributors.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       Link:
+         D:\DesignTool\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"./bin/ldecod.exe" /INCREMENTAL /NOLOGO opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\ldecod/Debug/ldecod.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\bin\ldecod.lib" /MACHINE:X86 /SAFESEH .\ldecod/Debug/annexb.obj
+         .\ldecod/Debug/biaridecod.obj
+         .\ldecod/Debug/block.obj
+         .\ldecod/Debug/cabac.obj
+         .\ldecod/Debug/context_ini.obj
+         .\ldecod/Debug/erc_api.obj
+         .\ldecod/Debug/erc_do_i.obj
+         .\ldecod/Debug/erc_do_p.obj
+         .\ldecod/Debug/errorconcealment.obj
+         .\ldecod/Debug/filehandle.obj
+         .\ldecod/Debug/fmo.obj
+         .\ldecod/Debug/header.obj
+         .\ldecod/Debug/image.obj
+         .\ldecod/Debug/ldecod.obj
+         .\ldecod/Debug/leaky_bucket.obj
+         .\ldecod/Debug/loopFilter.obj
+         .\ldecod/Debug/macroblock.obj
+         .\ldecod/Debug/mbuffer.obj
+         .\ldecod/Debug/mb_access.obj
+         .\ldecod/Debug/memalloc.obj
+         .\ldecod/Debug/nal.obj
+         .\ldecod/Debug/nalu.obj
+         .\ldecod/Debug/nalucommon.obj
+         .\ldecod/Debug/nal_part.obj
+         .\ldecod/Debug/output.obj
+         .\ldecod/Debug/parset.obj
+         .\ldecod/Debug/parsetcommon.obj
+         .\ldecod/Debug/rtp.obj
+         .\ldecod/Debug/sei.obj
+         .\ldecod/Debug/vlc.obj
+         ldecod.vcxproj -> D:\DESIGN\video code\JM_debug\.\bin\ldecod.exe
+       BscMake:
+         D:\DesignTool\vs2013\VC\bin\bscmake.exe /nologo /o".\bin\ldecod.bsc" .\bin\annexb.sbr .\bin\biaridecod.sbr .\bin\block.sbr .\bin\cabac.sbr .\bin\context_ini.sbr .\bin\erc_api.sbr .\bin\erc_do_i.sbr .\bin\erc_do_p.sbr .\bin\errorconcealment.sbr .\bin\filehandle.sbr .\bin\fmo.sbr .\bin\header.sbr .\bin\image.sbr .\bin\ldecod.sbr .\bin\leaky_bucket.sbr .\bin\loopFilter.sbr .\bin\macroblock.sbr .\bin\mbuffer.sbr .\bin\mb_access.sbr .\bin\memalloc.sbr .\bin\nal.sbr .\bin\nalu.sbr .\bin\nalucommon.sbr .\bin\nal_part.sbr .\bin\output.sbr .\bin\parset.sbr .\bin\parsetcommon.sbr .\bin\rtp.sbr .\bin\sei.sbr .\bin\vlc.sbr
+     1>已完成生成项目“D:\DESIGN\video code\JM_debug\ldecod.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.07

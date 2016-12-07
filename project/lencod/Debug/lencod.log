@@ -1,0 +1,383 @@
+﻿生成启动时间为 2016/9/23 15:09:28。
+     1>项目“D:\DESIGN\video code\JM_debug\lencod.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\DesignTool\vs2013\VC\bin\CL.exe /c /Ilencod/inc /Ilcommon/inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\lencod/Debug/" /Fd".\lencod/Debug/vc120.pdb" /FR".\lencod\Debug\\" /Gd /TC /analyze- /errorReport:prompt lencod\src\annexb.c lencod\src\biariencode.c lencod\src\block.c lencod\src\cabac.c lencod\src\configfile.c lencod\src\context_ini.c lencod\src\decoder.c lencod\src\fast_me.c lencod\src\filehandle.c lencod\src\fmo.c lencod\src\header.c lencod\src\image.c lencod\src\intrarefresh.c lencod\src\leaky_bucket.c lencod\src\lencod.c lencod\src\loopFilter.c lencod\src\macroblock.c lencod\src\mbuffer.c lencod\src\mb_access.c lencod\src\memalloc.c "lencod\src\mv-search.c" lencod\src\nal.c lencod\src\nalu.c lencod\src\nalucommon.c lencod\src\output.c lencod\src\parset.c lencod\src\parsetcommon.c lencod\src\ratectl.c lencod\src\rdopt.c lencod\src\rdopt_coding_state.c lencod\src\refbuf.c lencod\src\rtp.c lencod\src\sei.c lencod\src\slice.c lencod\src\vlc.c lencod\src\weighted_prediction.c
+         annexb.c
+     1>d:\design\video code\jm_debug\lencod\src\annexb.c(94): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+         biariencode.c
+     1>d:\design\video code\jm_debug\lencod\src\biariencode.c(79): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+         block.c
+         cabac.c
+         configfile.c
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(235): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(261): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(263): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(269): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(276): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(281): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(387): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(392): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(401): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(403): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(410): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(414): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(416): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(495): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(501): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(507): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(513): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(519): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(525): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(533): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(538): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(543): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(548): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(556): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(562): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(575): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(583): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(592): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(598): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(648): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(654): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(662): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(670): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(685): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(692): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(697): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(699): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(703): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(705): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(709): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(711): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(719): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(729): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(731): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(744): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(745): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(757): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(758): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(759): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(760): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(776): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(779): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(782): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(793): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(800): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(806): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(812): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(820): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(827): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(837): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(843): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(850): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(857): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(868): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(884): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(918): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(926): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(931): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(936): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(941): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(946): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(951): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(961): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(966): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(971): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(976): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(986): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\configfile.c(992): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+         context_ini.c
+         decoder.c
+         fast_me.c
+         filehandle.c
+     1>d:\design\video code\jm_debug\lencod\src\filehandle.c(76): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\filehandle.c(126): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+         fmo.c
+         header.c
+     1>d:\design\video code\jm_debug\lencod\src\header.c(573): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\design\video code\jm_debug\lencod\src\header.c(579): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\string.h(195) : 参见“strncpy”的声明
+         image.c
+     1>d:\design\video code\jm_debug\lencod\src\image.c(333): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\sys\timeb.h(131) : 参见“_ftime64”的声明
+     1>d:\design\video code\jm_debug\lencod\src\image.c(515): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\sys\timeb.h(131) : 参见“_ftime64”的声明
+     1>d:\design\video code\jm_debug\lencod\src\image.c(520): warning C4244: “=”: 从“time_t”转换到“int”，可能丢失数据
+         intrarefresh.c
+         leaky_bucket.c
+     1>d:\design\video code\jm_debug\lencod\src\leaky_bucket.c(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\design\video code\jm_debug\lencod\src\leaky_bucket.c(61): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\leaky_bucket.c(130): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\design\video code\jm_debug\lencod\src\leaky_bucket.c(132): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+         lencod.c
+     1>d:\design\video code\jm_debug\lencod\src\lencod.c(964): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\design\video code\jm_debug\lencod\src\lencod.c(966): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\lencod.c(1163): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\design\video code\jm_debug\lencod\src\lencod.c(1165): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\design\video code\jm_debug\lencod\src\lencod.c(1167): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\lencod.c(1189): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\design\video code\jm_debug\lencod\src\lencod.c(1191): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\lencod.c(1197): warning C4996: '_strdate': This function or variable may be unsafe. Consider using _strdate_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\time.h(198) : 参见“_strdate”的声明
+     1>d:\design\video code\jm_debug\lencod\src\lencod.c(1200): warning C4996: '_strtime': This function or variable may be unsafe. Consider using _strtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\time.h(202) : 参见“_strtime”的声明
+     1>d:\design\video code\jm_debug\lencod\src\lencod.c(1281): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+         loopFilter.c
+         macroblock.c
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(670): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(1837): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(1953): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(1983): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2009): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2010): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2042): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2060): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2061): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2079): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2104): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2126): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2154): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2182): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2253): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2447): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2451): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2525): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2530): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2690): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2758): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2818): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2902): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2928): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(2985): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(3040): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(3210): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(3227): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(3237): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(3249): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(3267): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(3378): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(3425): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(3457): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(3505): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>d:\design\video code\jm_debug\lencod\src\macroblock.c(3547): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+         mbuffer.c
+         mb_access.c
+         memalloc.c
+     1>d:\design\video code\jm_debug\lencod\src\memalloc.c(359): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+         正在生成代码...
+         正在编译...
+         mv-search.c
+     1>d:\design\video code\jm_debug\lencod\src\mv-search.c(1660): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\sys\timeb.h(131) : 参见“_ftime64”的声明
+     1>d:\design\video code\jm_debug\lencod\src\mv-search.c(1730): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\sys\timeb.h(131) : 参见“_ftime64”的声明
+     1>d:\design\video code\jm_debug\lencod\src\mv-search.c(1735): warning C4244: “=”: 从“__time64_t”转换到“int”，可能丢失数据
+         nal.c
+         nalu.c
+         nalucommon.c
+         output.c
+         parset.c
+         parsetcommon.c
+         ratectl.c
+         rdopt.c
+         rdopt_coding_state.c
+         refbuf.c
+         rtp.c
+     1>d:\design\video code\jm_debug\lencod\src\rtp.c(305): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+         sei.c
+         slice.c
+     1>d:\design\video code\jm_debug\lencod\src\slice.c(299): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+         vlc.c
+     1>d:\design\video code\jm_debug\lencod\src\vlc.c(65): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\design\video code\jm_debug\lencod\src\vlc.c(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\design\video code\jm_debug\lencod\src\vlc.c(144): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\design\video code\jm_debug\lencod\src\vlc.c(187): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\designtool\vs2013\vc\include\string.h(195) : 参见“strncpy”的声明
+         weighted_prediction.c
+         正在生成代码...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(D:\DESIGN\video code\JM_debug\.\lencod\Debug\lencod.exe) does not match the Linker's OutputFile property value (D:\DESIGN\video code\JM_debug\bin\lencod.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\DesignTool\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"./bin/lencod.exe" /INCREMENTAL /NOLOGO opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\lencod/Debug/lencod.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\lencod\Debug\lencod.lib" /MACHINE:X86 /SAFESEH .\lencod/Debug/annexb.obj
+         .\lencod/Debug/biariencode.obj
+         .\lencod/Debug/block.obj
+         .\lencod/Debug/cabac.obj
+         .\lencod/Debug/configfile.obj
+         .\lencod/Debug/context_ini.obj
+         .\lencod/Debug/decoder.obj
+         .\lencod/Debug/fast_me.obj
+         .\lencod/Debug/filehandle.obj
+         .\lencod/Debug/fmo.obj
+         .\lencod/Debug/header.obj
+         .\lencod/Debug/image.obj
+         .\lencod/Debug/intrarefresh.obj
+         .\lencod/Debug/leaky_bucket.obj
+         .\lencod/Debug/lencod.obj
+         .\lencod/Debug/loopFilter.obj
+         .\lencod/Debug/macroblock.obj
+         .\lencod/Debug/mbuffer.obj
+         .\lencod/Debug/mb_access.obj
+         .\lencod/Debug/memalloc.obj
+         ".\lencod/Debug/mv-search.obj"
+         .\lencod/Debug/nal.obj
+         .\lencod/Debug/nalu.obj
+         .\lencod/Debug/nalucommon.obj
+         .\lencod/Debug/output.obj
+         .\lencod/Debug/parset.obj
+         .\lencod/Debug/parsetcommon.obj
+         .\lencod/Debug/ratectl.obj
+         .\lencod/Debug/rdopt.obj
+         .\lencod/Debug/rdopt_coding_state.obj
+         .\lencod/Debug/refbuf.obj
+         .\lencod/Debug/rtp.obj
+         .\lencod/Debug/sei.obj
+         .\lencod/Debug/slice.obj
+         .\lencod/Debug/vlc.obj
+         .\lencod/Debug/weighted_prediction.obj
+         lencod.vcxproj -> D:\DESIGN\video code\JM_debug\.\lencod\Debug\lencod.exe
+       BscMake:
+         D:\DesignTool\vs2013\VC\bin\bscmake.exe /nologo /o".\lencod\Debug\lencod.bsc" .\lencod\Debug\annexb.sbr .\lencod\Debug\biariencode.sbr .\lencod\Debug\block.sbr .\lencod\Debug\cabac.sbr .\lencod\Debug\configfile.sbr .\lencod\Debug\context_ini.sbr .\lencod\Debug\decoder.sbr .\lencod\Debug\fast_me.sbr .\lencod\Debug\filehandle.sbr .\lencod\Debug\fmo.sbr .\lencod\Debug\header.sbr .\lencod\Debug\image.sbr .\lencod\Debug\intrarefresh.sbr .\lencod\Debug\leaky_bucket.sbr .\lencod\Debug\lencod.sbr .\lencod\Debug\loopFilter.sbr .\lencod\Debug\macroblock.sbr .\lencod\Debug\mbuffer.sbr .\lencod\Debug\mb_access.sbr .\lencod\Debug\memalloc.sbr ".\lencod\Debug\mv-search.sbr" .\lencod\Debug\nal.sbr .\lencod\Debug\nalu.sbr .\lencod\Debug\nalucommon.sbr .\lencod\Debug\output.sbr .\lencod\Debug\parset.sbr .\lencod\Debug\parsetcommon.sbr .\lencod\Debug\ratectl.sbr .\lencod\Debug\rdopt.sbr .\lencod\Debug\rdopt_coding_state.sbr .\lencod\Debug\refbuf.sbr .\lencod\Debug\rtp.sbr .\lencod\Debug\sei.sbr .\lencod\Debug\slice.sbr .\lencod\Debug\vlc.sbr .\lencod\Debug\weighted_prediction.sbr
+     1>已完成生成项目“D:\DESIGN\video code\JM_debug\lencod.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.99
