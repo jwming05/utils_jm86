@@ -1050,6 +1050,14 @@ void SetMotionVectorsMB (Macroblock* currMB, int bframe)
     for (i=0; i<4; i++)
     {
       mode8 = currMB->b8mode[k=2*(j/2)+(i/2)];				//当前4x4块的最佳模式
+	  if (mode8 == 1)
+	  {
+		  mode8 = 1;
+	  }
+	  if (mode8 == 0)
+	  {
+		  mode8 = 0;
+	  }
       l     = 2*(j%2)+(i%2);
       by    = img->block_y+j;
       bxr   = img->block_x+i;
@@ -1828,7 +1836,7 @@ int field_flag_inference()
    valid[I4MB]   = 1;										// 帧内4x4预测			mode == 9
    valid[I16MB]  = 1;										// 帧内16x16预测		mode == 10
    
-   valid[0]      = (!intra );								// 帧间预测				mode == 0
+   valid[0]      = (!intra );								// 帧间skip				mode == 0
    valid[1]      = (!intra && input->InterSearch16x16);		// 帧间16x16预测		mode == 1
    valid[2]      = (!intra && input->InterSearch16x8);		// 帧间16x8预测			mode == 2
    valid[3]      = (!intra && input->InterSearch8x16);		// 帧间8x16预测			mode == 3
@@ -2554,7 +2562,6 @@ int field_flag_inference()
       }
 // 以上是帧间预测8x8模式，8x8还会继续分为亚宏块模式****************************************************************************************************
 // ****************************************************************************************************************************************************
-
       // Find a motion vector for the Skip mode
       if((img->type == P_SLICE)||(img->type == SP_SLICE))
         FindSkipModeMotionVector ();

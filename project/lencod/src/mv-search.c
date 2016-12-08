@@ -1841,8 +1841,6 @@ BlockMotionSearch (int       ref,           //!< reference idx
 		//block_x, block_y都是宏块内部的各4x4分块位置
         all_mv[block_x+i][block_y+j][list][ref][blocktype][0] = mv_x;
         all_mv[block_x+i][block_y+j][list][ref][blocktype][1] = mv_y;
-		all_mv[block_x + i][block_y + j][list][ref][blocktype][0] ++;
-		all_mv[block_x + i][block_y + j][list][ref][blocktype][1] ++;
       }
     }
   }
@@ -2191,10 +2189,10 @@ PartitionMotionSearch (int    blocktype,
             //--- motion search for block ---
 			// 子块的运动矢量搜寻(传入的位置是像素为单位在宏块中的位置，所以h<<2, v<<2都是x4)
 			// 对指定宏块类型，指定的搜索块，指定参考帧，进行运动搜索，并返回代价
-            mcost = BlockMotionSearch     (ref, list, h<<2, v<<2, blocktype, search_range, lambda);	
+            mcost = BlockMotionSearch     (ref, list, h<<2, v<<2, blocktype, search_range, lambda);		//当前搜寻块的mv	
             motion_cost[blocktype][list][ref][block8x8] += mcost;										//指定宏块类型，指定搜索块，指定参考帧的代价
             
-			Event_MvSearch();
+			Event_MvSearch(h, v, list, ref, blocktype, img->all_mv);
 
             //--- set motion vectors and reference frame (for motion vector prediction) ---
 			// 设置运动矢量在mv_array和ref_array(其实就是设置在enc_picture中)
