@@ -100,7 +100,8 @@ void Clear_Motion_Search_Module ();
 int main(int argc,char **argv)
 {
   int M,N,n,np,nb;           //Rate control
-
+  
+  Event_Start();
   p_dec = p_stat = p_log = p_trace = NULL;
 
   Configure (argc, argv);	//根据命令行参数，进行相关操作
@@ -407,8 +408,8 @@ int main(int argc,char **argv)
   free_context_memory ();
   FreeNalPayloadBuffer();
   FreeParameterSets();
-  StatisticsLNZIndex(NULL);			//传null是为了显示数据，其不做任何处理的。
-  while (1);
+
+  Event_End();
   return 0;                         //encode JM73_FME version
 }
 /*!

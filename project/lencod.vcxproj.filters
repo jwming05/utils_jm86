@@ -131,7 +131,10 @@
     <ClCompile Include="user\src\util.c">
       <Filter>user\src</Filter>
     </ClCompile>
-    <ClCompile Include="user\inc\event.c">
+    <ClCompile Include="user\src\watermark.c">
+      <Filter>user\src</Filter>
+    </ClCompile>
+    <ClCompile Include="user\src\event.c">
       <Filter>user\src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -245,6 +248,9 @@
       <Filter>user\inc</Filter>
     </ClInclude>
     <ClInclude Include="user\inc\event.h">
+      <Filter>user\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="user\inc\watermark.h">
       <Filter>user\inc</Filter>
     </ClInclude>
   </ItemGroup>

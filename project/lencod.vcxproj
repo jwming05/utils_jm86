@@ -377,7 +377,8 @@
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
       <BrowseInformation Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</BrowseInformation>
     </ClCompile>
-    <ClCompile Include="user\inc\event.c" />
+    <ClCompile Include="user\src\event.c" />
+    <ClCompile Include="user\src\watermark.c" />
     <ClCompile Include="user\src\util.c" />
   </ItemGroup>
   <ItemGroup>
@@ -416,6 +417,7 @@
     <ClInclude Include="lencod\inc\sei.h" />
     <ClInclude Include="lencod\inc\vlc.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="user\inc\watermark.h" />
     <ClInclude Include="user\inc\event.h" />
     <ClInclude Include="user\inc\util.h" />
   </ItemGroup>
