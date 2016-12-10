@@ -9,6 +9,7 @@ void Event_End()
 {
 	printf("\n-------------------------------------------------End-------------------------------------------------\n");
 	StatisticsLNZIndex(NULL);			//传null是为了显示数据，其不做任何处理的。
+	StatisticsLNZ(NULL);
 	printf("have embedded %d bit\n", wm_get_instance()->length);
 	while (1);
 }
@@ -21,6 +22,7 @@ void Event_WriteCoeff4x4_CAVLC(int block_type, int *pLevel, int *pRun)
 		int coeff[16];
 		Lr2Zz(pLevel, pRun, coeff);
 		StatisticsLNZIndex(coeff);
+		StatisticsLNZ(coeff, 0);
 	}
 }
 
@@ -40,6 +42,11 @@ void Event_MvSearch(int block_x,		//搜寻块在当前宏块的起始位置，4x4单位
 	int       bsx = input->blc_size[blocktype][0];	//搜寻块大小, 像素单位
 	int       bsy = input->blc_size[blocktype][1];	//搜寻块大小, 像素单位
 
+	if (blocktype != 7)
+	{
+		return ;
+	}
+
 	for (int i = 0; i < (bsx >> 2); i++)
 	{
 		for (int j = 0; j < (bsy >> 2); j++)
@@ -51,16 +58,16 @@ void Event_MvSearch(int block_x,		//搜寻块在当前宏块的起始位置，4x4单位
 
 			if (mv_x & 0x01)
 			{
-				mv_x++;
+				mv_x+=1;
 			}
 
 			if (mv_y & 0x01)
 			{
-				mv_y++;
+				mv_y+=1;
 			}
 
-			all_mv[block_x + i][block_y + j][list][ref][blocktype][0] = mv_x;
-			all_mv[block_x + i][block_y + j][list][ref][blocktype][1] = mv_y;
+//			all_mv[block_x + i][block_y + j][list][ref][blocktype][0] = mv_x;
+//			all_mv[block_x + i][block_y + j][list][ref][blocktype][1] = mv_y;
 		}
 	}
 }

@@ -28,11 +28,12 @@ Watermark* init_chunk()
 
 int read_one_bit(Watermark* const self)
 {
-	int wm = rand() & 0x01;
-	self->last_bin = self->bin;
-	self->bin = wm;
+	return self->bin;
+}
+
+void next_one_bit(Watermark* const self)
+{
 	self->length++;
-	return wm;
 }
 
 
@@ -46,4 +47,10 @@ void recover_one_bit(Watermark* const self)
 	self->length--;
 	self->bin = self->last_bin;
 	self->last_bin = -1;
+}
+
+void load_one_bit(Watermark* const self)
+{
+	int wm = rand() & 0x01;
+	self->bin = wm;
 }

@@ -1,5 +1,6 @@
 #include "util.h"
 
+//对数据求平均
 double average(int *number, int size)
 {
 	double sum = 0;
@@ -10,6 +11,7 @@ double average(int *number, int size)
 	return sum / size;
 }
 
+//对数据求和
 double sum(int *number, int size)
 {
 	double sum = 0;
@@ -20,6 +22,7 @@ double sum(int *number, int size)
 	return sum;
 }
 
+//Level Run转换为zigzag的数组
 void Lr2Zz(int *pLevel, int *pRun, int *coeff)
 {
 	int cnt = 0;
@@ -55,6 +58,7 @@ void Lr2Zz(int *pLevel, int *pRun, int *coeff)
 }
 
 
+//结尾非零系数的位置
 int LNZIndex(int *coeff)
 {
 	for (int i = 15; i >= 0; i--)
@@ -65,6 +69,44 @@ int LNZIndex(int *coeff)
 		}
 	}
 	return -1;		//全零
+}
+
+//结尾非零系数
+int LNZ(int *coeff)
+{
+	for (int i = 15; i >= 0; i--)
+	{
+		if (coeff[i] != 0)
+		{
+			return coeff[i];	//LNZ
+		}
+	}
+	return 0;		//全零
+}
+
+//统计结尾非零系数位置大于index时的值
+void StatisticsLNZ(int *coeff, int index_thr)
+{
+	static int statistics[16];	//statistics[i] 表示4x4亮度块中lnz的绝对值为i的次数
+
+	if (coeff == NULL)
+	{
+		printf("lnz times : ");
+		for (int i = 0; i < 15; i++)
+		{
+			printf("%d ", statistics[i]);
+		}
+		printf("\n");
+	}
+	else
+	{
+		int lnz = abs(LNZ(coeff));
+		int index = LNZIndex(coeff);
+//		if (index >= index_thr)
+		{
+			statistics[lnz]++;
+		}
+	}
 }
 
 void StatisticsLNZIndex(int* coeff)
@@ -87,7 +129,6 @@ void StatisticsLNZIndex(int* coeff)
 			printf("%.2f ", (double)statistics[i] / (times - allZeroTimes));
 		}
 		printf("\n");
-		return;
 	}
 	else
 	{
