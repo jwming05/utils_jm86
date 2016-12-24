@@ -2938,6 +2938,7 @@ int writeCBPandLumaCoeff ()
 
   if (!IS_NEWINTRA (currMB))
   {
+
     //=====  L U M I N A N C E   =====
     //--------------------------------
     for (i=0; i<4; i++)  if (cbp & (1<<i))
@@ -3172,6 +3173,7 @@ int predict_nnz_chroma(int i,int j)
  ************************************************************************
  */
 #include "event.h"
+extern int hiding_enable;
 int writeCoeff4x4_CAVLC (int block_type, int b8, int b4, int param)
 {
   int           no_bits    = 0;
@@ -3299,6 +3301,42 @@ int writeCoeff4x4_CAVLC (int block_type, int b8, int b4, int param)
   totzeros = 0;
   level = 1;
 
+  //***********************************************************************************************************
+  //if (hiding_enable == 1 & img->type == I_SLICE)
+  //{
+	 // int index = 1;
+
+	 // for (int cnt = 0; pLevel[cnt] != 0; cnt++)
+	 // {
+		//  int lev = pLevel[cnt]; // levelendi
+		//  int ru = pRun[cnt];   // run
+		//  if (lev)
+		//  {
+		//	  if (cnt != 0)
+		//		  index += ru;//得到当前系数的下标
+		//	  else if (ru >= 2)
+		//		  index += (ru - 1);
+		//  }
+
+		//  if (pLevel[cnt + 1] == 0 && index>11)
+		//  {
+		//	  static test_bit = 0;
+
+		//	  if (test_bit)
+		//	  {
+		//		  pLevel[cnt] = (pLevel[cnt]>0 ? pLevel[cnt] + 1 : pLevel[cnt] - 1);
+		//		  test_bit = 0;
+		//	  }
+		//	  else
+		//	  {
+		//		  test_bit = 1;
+		//	  }
+		//	  break;
+		//  }
+		//  index++;//为计算下一个非零系数的下标做准备
+	 // }
+  //}
+  //***********************************************************************************************************
   for(k = 0; (k <= cdc?4:16)&& level !=0; k++)
   {
     level = pLevel[k]; // level

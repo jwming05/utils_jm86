@@ -30,6 +30,8 @@
 #include "ratectl.h"            // head file for rate control
 #include "cabac.h"            // head file for rate control
 
+extern int ipredpix[16][16];//记录预测像素像素值
+
 //Rate control
 
 int QP,QP2;
@@ -1205,6 +1207,13 @@ int RDCost_for_macroblocks (double   lambda,      // <-- lagrange multiplier
 	  //non rdo, distortion = sad, MODE_COST_4x4 = distortion + 4*lambda_mode
 	  //  s  rdo, distortion = ssd, MODE_COST_4x4 = distortion + lambda_mode*BLOCKbits
     currMB->cbp = Mode_Decision_for_Intra4x4Macroblock (lambda, &dummy);		//cbp（code_block_patern） 指定一个宏块6个8x8残差的编码方案
+	for (int ii = 0; ii < 16; ii++)
+	{
+		for (int jj = 0; jj < 16; jj++)
+		{
+			ipredpix[ii][jj] = img->mpr[ii][jj];
+		}
+	}
   }
   //帧内16x16
   else if (mode==I16MB)

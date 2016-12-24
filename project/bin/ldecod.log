@@ -1,5 +1,14 @@
-﻿生成启动时间为 2016/12/7 20:05:11。
+﻿生成启动时间为 2016/12/24 21:45:20。
+     1>项目“D:\DESIGN\video code\project\util_jm86\project\ldecod.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (.\bin\) contains files shared from another project (lencod.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Link:
+         ldecod.vcxproj -> D:\DESIGN\video code\project\util_jm86\project\.\bin\ldecod.exe
+       BscMake:
+         D:\DesignTool\vs2013\VC\bin\bscmake.exe /nologo /o".\bin\ldecod.bsc" .\bin\annexb.sbr .\bin\biaridecod.sbr .\bin\block.sbr .\bin\cabac.sbr .\bin\context_ini.sbr .\bin\erc_api.sbr .\bin\erc_do_i.sbr .\bin\erc_do_p.sbr .\bin\errorconcealment.sbr .\bin\filehandle.sbr .\bin\fmo.sbr .\bin\header.sbr .\bin\image.sbr .\bin\ldecod.sbr .\bin\leaky_bucket.sbr .\bin\loopFilter.sbr .\bin\macroblock.sbr .\bin\mbuffer.sbr .\bin\mb_access.sbr .\bin\memalloc.sbr .\bin\nal.sbr .\bin\nalu.sbr .\bin\nalucommon.sbr .\bin\nal_part.sbr .\bin\output.sbr .\bin\parset.sbr .\bin\parsetcommon.sbr .\bin\rtp.sbr .\bin\sei.sbr .\bin\vlc.sbr .\bin\event.sbr .\bin\hide.sbr .\bin\util.sbr
+     1>已完成生成项目“D:\DESIGN\video code\project\util_jm86\project\ldecod.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.27
+已用时间 00:00:00.44

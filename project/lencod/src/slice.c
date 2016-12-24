@@ -47,6 +47,8 @@ static void set_ref_pic_num();
 extern ColocatedParams *Co_located;
 extern StorablePicture **listX[6];
 
+int hiding_enable = 0;
+
 /*!
  ************************************************************************
  * \brief
@@ -268,7 +270,10 @@ int encode_one_slice (int SliceGroupId, Picture *pic)
       start_macroblock (CurrentMbAddr, FALSE);		// 宏块初始设置
 
 //编码一个宏块，并写入文件*****************************************************************************************************************************
-      encode_one_macroblock ();	  
+	  hiding_enable = 0;
+	  encode_one_macroblock ();
+	  hiding_enable = 1;
+	  Event_FinishOneMac();			//编码玩一个宏块时，触发
       write_one_macroblock (1);		//在write_one_macroblock中，设置currSE的参数.这些参数是用来写入数据流的。
 //*****************************************************************************************************************************************************
       

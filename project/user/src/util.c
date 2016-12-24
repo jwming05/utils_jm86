@@ -1,5 +1,36 @@
 #include "util.h"
 
+//判断number是否为奇数
+int isOdd(int number)
+{
+	return abs(number) & 0x01;
+}
+
+//判断number是否为偶数
+int isEven(int number)
+{
+	return !(abs(number) & 0x01);
+}
+
+//支持负数求余
+int mymod(int val, int m)
+{
+	while (val < 0)
+	{
+		val += m;
+	}
+	return val % m;
+}
+
+//清空长度为n的一维数组
+void clearArr(int *arr, int n)
+{
+	for (int i = 0; i < n; i++)
+	{
+		arr[i] = 0;
+	}
+}
+
 //对数据求平均
 double average(int *number, int size)
 {
@@ -22,6 +53,18 @@ double sum(int *number, int size)
 	return sum;
 }
 
+//将zigzag的一维数组，转换为二维数组
+extern const byte SNGL_SCAN[16][2];
+void Zz2Matrix(int *coeff, int matrix[4][4])
+{
+	for (int index = 0; index < 16; index++)
+	{
+		int i = SNGL_SCAN[index][0];
+		int j = SNGL_SCAN[index][1];
+		matrix[i][j] = coeff[index];
+	}
+}
+
 //Level Run转换为zigzag的数组
 void Lr2Zz(int *pLevel, int *pRun, int *coeff)
 {
@@ -29,12 +72,12 @@ void Lr2Zz(int *pLevel, int *pRun, int *coeff)
 	int index = 0;
 	static int time = 0;
 	time++;
-	
+
 	while (cnt < 16)
 	{
 		int preZeroNumber = pRun[index];
 		int level = pLevel[index];
-		
+
 		if (level == 0)
 		{	//level为0 ， 全置为0
 			while (cnt < 16)
@@ -55,6 +98,51 @@ void Lr2Zz(int *pLevel, int *pRun, int *coeff)
 		cnt += 1;
 		index += 1;
 	}
+}
+
+//Zigzag转换为level run
+void Zz2Lr(int *pLevel, int *pRun, int *coeff)
+{
+	int coeffIndex = 0;
+	int zeroLength = 0;
+	int index = 0;
+	
+	//clear
+	for (int i = 0; i < 16; i++)
+	{
+		pLevel[i] = 0;
+		pRun[i] = 0;
+	}
+
+	while (coeffIndex < 16)
+	{
+		int co = coeff[coeffIndex];
+		if (co == 0)
+		{
+			zeroLength++;
+		}
+		else
+		{
+			pLevel[index] = co;
+			pRun[index] = zeroLength;
+			zeroLength = 0;
+			index++;
+		}
+		coeffIndex++;
+	}
+}
+
+//level中的最后1为非零系数的index
+int LevelLnzIndex(int *level)
+{
+	for (int i = 0; i < 16; i++)
+	{
+		if (level[i] == 0)
+		{
+			return i == 0 ? -1 : (i - 1);		//-1为系数全零
+		}
+	}
+	return -2;	//unknown
 }
 
 

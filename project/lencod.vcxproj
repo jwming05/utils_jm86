@@ -378,6 +378,8 @@
       <BrowseInformation Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</BrowseInformation>
     </ClCompile>
     <ClCompile Include="user\src\event.c" />
+    <ClCompile Include="user\src\hide.c" />
+    <ClCompile Include="user\src\util264.c" />
     <ClCompile Include="user\src\watermark.c" />
     <ClCompile Include="user\src\util.c" />
   </ItemGroup>
@@ -417,6 +419,8 @@
     <ClInclude Include="lencod\inc\sei.h" />
     <ClInclude Include="lencod\inc\vlc.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="user\inc\hide.h" />
+    <ClInclude Include="user\inc\util264.h" />
     <ClInclude Include="user\inc\watermark.h" />
     <ClInclude Include="user\inc\event.h" />
     <ClInclude Include="user\inc\util.h" />

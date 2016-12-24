@@ -44,6 +44,8 @@
 #define TRACE_STRING(s) // do nothing
 #endif
 
+extern int macLevel[4][4][16];
+extern int macRun[4][4][16];
 extern int last_dquant;
 extern ColocatedParams *Co_located;
 
@@ -2722,6 +2724,7 @@ void readCBPandCoeffsFromNAL(struct img_par *img,struct inp_par *inp)
           {
             ii = block_x/2; jj = block_y/2;
             b8 = 2*jj+ii;
+			int b4 = (i & 0x01) + (j & 0x01) * 2;
 
             if (cbp & (1<<b8))  /* are there any coeff in current block at all */
             {
@@ -2737,6 +2740,11 @@ void readCBPandCoeffsFromNAL(struct img_par *img,struct inp_par *inp)
                 readCoeff4x4_CAVLC(img, inp, LUMA, i, j,
                                     levarr, runarr, &numcoeff);
                 start_scan = 0;
+				for (int cnt = 0; cnt < 16; cnt++)
+				{
+					macLevel[b8][b4][cnt] = levarr[cnt];
+					macRun[b8][b4][cnt] = runarr[cnt];
+				}
               }
 
               coef_ctr = start_scan-1;
@@ -3136,7 +3144,7 @@ int decode_one_macroblock(struct img_par *img,struct inp_par *inp)
   StorablePicture **list;
 
   int jf;
-
+  
   int fw_rFrame=-1,bw_rFrame=-1;
   int pmvfw[2]={0,0},pmvbw[2]={0,0};              
 

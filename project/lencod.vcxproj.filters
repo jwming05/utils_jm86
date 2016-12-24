@@ -137,6 +137,12 @@
     <ClCompile Include="user\src\event.c">
       <Filter>user\src</Filter>
     </ClCompile>
+    <ClCompile Include="user\src\util264.c">
+      <Filter>user\src</Filter>
+    </ClCompile>
+    <ClCompile Include="user\src\hide.c">
+      <Filter>user\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lencod\inc\annexb.h">
@@ -251,6 +257,12 @@
       <Filter>user\inc</Filter>
     </ClInclude>
     <ClInclude Include="user\inc\watermark.h">
+      <Filter>user\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="user\inc\util264.h">
+      <Filter>user\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="user\inc\hide.h">
       <Filter>user\inc</Filter>
     </ClInclude>
   </ItemGroup>

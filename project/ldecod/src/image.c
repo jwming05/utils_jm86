@@ -1367,6 +1367,7 @@ void decode_one_slice(struct img_par *img,struct inp_par *inp)
 	*/
 	read_flag = read_one_macroblock(img,inp);
 	// ½âÂë
+	Event_BeforeOneMac(img);
     decode_one_macroblock(img,inp);
 //**********************************************************************************************************************************************
     if(img->MbaffFrameFlag && dec_picture->mb_field[img->current_mb_nr])

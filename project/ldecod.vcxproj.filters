@@ -9,6 +9,15 @@
       <UniqueIdentifier>{08ed0e95-e2c5-4273-a81e-c3b92e0dbd15}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
+    <Filter Include="user">
+      <UniqueIdentifier>{a4f46b87-4e19-419e-8b25-a413efbc26bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user\inc">
+      <UniqueIdentifier>{7b7df9ad-5507-406d-be5c-19e5da358d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user\src">
+      <UniqueIdentifier>{b5272797-c437-436f-b003-a1961dd464d9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ldecod\src\annexb.c">
@@ -100,6 +109,15 @@
     </ClCompile>
     <ClCompile Include="ldecod\src\vlc.c">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ldecod\user\src\event.c">
+      <Filter>user\src</Filter>
+    </ClCompile>
+    <ClCompile Include="ldecod\user\src\util.c">
+      <Filter>user\src</Filter>
+    </ClCompile>
+    <ClCompile Include="ldecod\user\src\hide.c">
+      <Filter>user\src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -195,6 +213,15 @@
     </ClInclude>
     <ClInclude Include="ldecod\inc\vlc.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ldecod\user\inc\event.h">
+      <Filter>user\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ldecod\user\inc\util.h">
+      <Filter>user\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ldecod\user\inc\hide.h">
+      <Filter>user\inc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

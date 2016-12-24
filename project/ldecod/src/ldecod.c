@@ -186,7 +186,7 @@ int main(int argc, char **argv)
   free (input);
   free (snr);
   free (img);
-  
+  Event_End();
   //while( !kbhit() ); 
   return 0;
 }

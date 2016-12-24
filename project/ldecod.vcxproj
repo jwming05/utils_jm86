@@ -54,7 +54,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>ldecod/inc;lcommon/inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\DESIGN\video code\project\util_jm86\project\ldecod\user\inc;ldecod/inc;lcommon/inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeader />
@@ -302,6 +302,9 @@
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
       <BrowseInformation Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</BrowseInformation>
     </ClCompile>
+    <ClCompile Include="ldecod\user\src\event.c" />
+    <ClCompile Include="ldecod\user\src\hide.c" />
+    <ClCompile Include="ldecod\user\src\util.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ldecod\inc\annexb.h" />
@@ -335,6 +338,9 @@
     <ClInclude Include="ldecod\inc\rtp.h" />
     <ClInclude Include="ldecod\inc\sei.h" />
     <ClInclude Include="ldecod\inc\vlc.h" />
+    <ClInclude Include="ldecod\user\inc\event.h" />
+    <ClInclude Include="ldecod\user\inc\hide.h" />
+    <ClInclude Include="ldecod\user\inc\util.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\decoder.cfg" />
