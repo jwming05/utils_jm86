@@ -46,6 +46,7 @@
 
 extern int macLevel[4][4][16];
 extern int macRun[4][4][16];
+extern int blocksMatrix[4][4][4][4];
 extern int last_dquant;
 extern ColocatedParams *Co_located;
 
@@ -2764,6 +2765,10 @@ void readCBPandCoeffsFromNAL(struct img_par *img,struct inp_par *inp)
                     j0=FIELD_SCAN[coef_ctr][1];
                   }
                   currMB->cbp_blk      |= 1 << ((j<<2) + i) ;
+				  
+				  b4 = i % 2 + (j % 2) * 2;
+				  blocksMatrix[b8][b4][i0][j0] = levarr[k];
+
                   img->cof[i][j][i0][j0]= levarr[k]*dequant_coef[qp_rem][i0][j0]<<qp_per;
                 }
               }
@@ -2835,6 +2840,10 @@ void readCBPandCoeffsFromNAL(struct img_par *img,struct inp_par *inp)
                       j0=FIELD_SCAN[coef_ctr][1];
                     }
                     currMB->cbp_blk      |= 1 << ((j<<2) + i) ;
+					//test
+					int b4 = i % 2 + (j % 2) * 2;
+					blocksMatrix[b8][b4][i0][j0] = level;
+					//end
                     img->cof[i][j][i0][j0]= level*dequant_coef[qp_rem][i0][j0]<<qp_per;
                   }
                 }

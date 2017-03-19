@@ -1,12 +1,83 @@
-﻿生成启动时间为 2016/12/24 21:44:40。
-     1>项目“D:\DESIGN\video code\project\util_jm86\project\lencod.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2017/3/19 23:36:54。
+     1>项目“D:\Design\video\project\util_jm86_2013\project\lencod.vcxproj”在节点 2 上(Build 个目标)。
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (.\bin\) contains files shared from another project (ldecod.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-     1>Link:
-         lencod.vcxproj -> D:\DESIGN\video code\project\util_jm86\project\.\bin\lencod.exe
-     1>已完成生成项目“D:\DESIGN\video code\project\util_jm86\project\lencod.vcxproj”(Build 个目标)的操作。
+     1>ClCompile:
+         D:\Program Files (x86)\vs2013\VC\bin\CL.exe /c /Ilencod/inc /Ilcommon/inc /ID:\Design\video\project\util_jm86_2013\project\lencod\user\inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\lencod/Debug\\" /Fd".\lencod/Debug\vc120.pdb" /FR".\bin\\" /Gd /TC /analyze- /errorReport:prompt lencod\src\annexb.c "lencod\src\mv-search.c" lencod\user\src\truehide.c
+         annexb.c
+     1>d:\design\video\project\util_jm86_2013\project\lencod\src\annexb.c(94): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+         mv-search.c
+     1>d:\design\video\project\util_jm86_2013\project\lencod\src\mv-search.c(1660): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\vs2013\vc\include\sys\timeb.h(131) : 参见“_ftime64”的声明
+     1>d:\design\video\project\util_jm86_2013\project\lencod\src\mv-search.c(1730): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\vs2013\vc\include\sys\timeb.h(131) : 参见“_ftime64”的声明
+     1>d:\design\video\project\util_jm86_2013\project\lencod\src\mv-search.c(1735): warning C4244: “=”: 从“__time64_t”转换到“int”，可能丢失数据
+     1>d:\design\video\project\util_jm86_2013\project\lencod\src\mv-search.c(2195): warning C4013: “Event_MvSearch”未定义；假设外部返回 int
+         truehide.c
+     1>d:\design\video\project\util_jm86_2013\project\lencod\user\src\truehide.c(39): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>d:\design\video\project\util_jm86_2013\project\lencod\user\src\truehide.c(85): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\design\video\project\util_jm86_2013\project\lencod\user\src\truehide.c(148): warning C4090: “函数”: 不同的“const”限定符
+     1>d:\design\video\project\util_jm86_2013\project\lencod\user\src\truehide.c(153): warning C4090: “函数”: 不同的“const”限定符
+     1>d:\design\video\project\util_jm86_2013\project\lencod\user\src\truehide.c(154): warning C4090: “函数”: 不同的“const”限定符
+     1>d:\design\video\project\util_jm86_2013\project\lencod\user\src\truehide.c(160): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>d:\design\video\project\util_jm86_2013\project\lencod\user\src\truehide.c(162): warning C4090: “函数”: 不同的“const”限定符
+     1>d:\design\video\project\util_jm86_2013\project\lencod\user\src\truehide.c(167): warning C4090: “函数”: 不同的“const”限定符
+     1>d:\design\video\project\util_jm86_2013\project\lencod\user\src\truehide.c(175): warning C4090: “函数”: 不同的“const”限定符
+     1>d:\design\video\project\util_jm86_2013\project\lencod\user\src\truehide.c(176): warning C4090: “函数”: 不同的“const”限定符
+     1>d:\design\video\project\util_jm86_2013\project\lencod\user\src\truehide.c(184): warning C4090: “函数”: 不同的“const”限定符
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"./bin/lencod.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\bin\lencod.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\bin\lencod.lib" /MACHINE:X86 /SAFESEH .\lencod/Debug\annexb.obj
+         .\lencod/Debug\biariencode.obj
+         .\lencod/Debug\block.obj
+         .\lencod/Debug\cabac.obj
+         .\lencod/Debug\configfile.obj
+         .\lencod/Debug\context_ini.obj
+         .\lencod/Debug\decoder.obj
+         .\lencod/Debug\fast_me.obj
+         .\lencod/Debug\filehandle.obj
+         .\lencod/Debug\fmo.obj
+         .\lencod/Debug\header.obj
+         .\lencod/Debug\image.obj
+         .\lencod/Debug\intrarefresh.obj
+         .\lencod/Debug\leaky_bucket.obj
+         .\lencod/Debug\lencod.obj
+         .\lencod/Debug\loopFilter.obj
+         .\lencod/Debug\macroblock.obj
+         .\lencod/Debug\mbuffer.obj
+         .\lencod/Debug\mb_access.obj
+         .\lencod/Debug\memalloc.obj
+         ".\lencod/Debug\mv-search.obj"
+         .\lencod/Debug\nal.obj
+         .\lencod/Debug\nalu.obj
+         .\lencod/Debug\nalucommon.obj
+         .\lencod/Debug\output.obj
+         .\lencod/Debug\parset.obj
+         .\lencod/Debug\parsetcommon.obj
+         .\lencod/Debug\ratectl.obj
+         .\lencod/Debug\rdopt.obj
+         .\lencod/Debug\rdopt_coding_state.obj
+         .\lencod/Debug\refbuf.obj
+         .\lencod/Debug\rtp.obj
+         .\lencod/Debug\sei.obj
+         .\lencod/Debug\slice.obj
+         .\lencod/Debug\vlc.obj
+         .\lencod/Debug\weighted_prediction.obj
+         .\lencod/Debug\event.obj
+         .\lencod/Debug\hide.obj
+         .\lencod/Debug\nsc.obj
+         .\lencod/Debug\truehide.obj
+         .\lencod/Debug\util.obj
+         .\lencod/Debug\util264.obj
+         .\lencod/Debug\watermark.obj
+         lencod.vcxproj -> D:\Design\video\project\util_jm86_2013\project\.\bin\lencod.exe
+       BscMake:
+         D:\Program Files (x86)\vs2013\VC\bin\bscmake.exe /nologo /o".\lencod/Debug\lencod.bsc" .\bin\annexb.sbr .\bin\biariencode.sbr .\bin\block.sbr .\bin\cabac.sbr .\bin\configfile.sbr .\bin\context_ini.sbr .\bin\decoder.sbr .\bin\fast_me.sbr .\bin\filehandle.sbr .\bin\fmo.sbr .\bin\header.sbr .\bin\image.sbr .\bin\intrarefresh.sbr .\bin\leaky_bucket.sbr .\bin\lencod.sbr .\bin\loopFilter.sbr .\bin\macroblock.sbr .\bin\mbuffer.sbr .\bin\mb_access.sbr .\bin\memalloc.sbr ".\bin\mv-search.sbr" .\bin\nal.sbr .\bin\nalu.sbr .\bin\nalucommon.sbr .\bin\output.sbr .\bin\parset.sbr .\bin\parsetcommon.sbr .\bin\ratectl.sbr .\bin\rdopt.sbr .\bin\rdopt_coding_state.sbr .\bin\refbuf.sbr .\bin\rtp.sbr .\bin\sei.sbr .\bin\slice.sbr .\bin\vlc.sbr .\bin\weighted_prediction.sbr .\bin\event.sbr .\bin\hide.sbr .\bin\nsc.sbr .\bin\truehide.sbr .\bin\util.sbr .\bin\util264.sbr .\bin\watermark.sbr
+     1>已完成生成项目“D:\Design\video\project\util_jm86_2013\project\lencod.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.21
+已用时间 00:00:00.93

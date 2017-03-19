@@ -1,101 +1,126 @@
-d:\design\video code\project\jm_test\bin\lencod.bsc
-d:\design\video code\project\util_jm86\project\bin\lencod.bsc
-d:\design\video code\project\jm_test\lencod\debug\vc120.pdb
-d:\design\video code\project\util_jm86\project\lencod\debug\vc120.pdb
-d:\design\video code\project\util_jm86\project\lencod\debug\vc120.idb
-d:\design\video code\project\util_jm86\project\bin\annexb.sbr
-d:\design\video code\project\util_jm86\project\bin\biariencode.sbr
-d:\design\video code\project\util_jm86\project\bin\block.sbr
-d:\design\video code\project\util_jm86\project\bin\cabac.sbr
-d:\design\video code\project\util_jm86\project\bin\configfile.sbr
-d:\design\video code\project\util_jm86\project\bin\context_ini.sbr
-d:\design\video code\project\util_jm86\project\bin\decoder.sbr
-d:\design\video code\project\util_jm86\project\bin\fast_me.sbr
-d:\design\video code\project\util_jm86\project\bin\filehandle.sbr
-d:\design\video code\project\util_jm86\project\bin\fmo.sbr
-d:\design\video code\project\util_jm86\project\bin\header.sbr
-d:\design\video code\project\util_jm86\project\bin\image.sbr
-d:\design\video code\project\util_jm86\project\bin\intrarefresh.sbr
-d:\design\video code\project\util_jm86\project\bin\leaky_bucket.sbr
-d:\design\video code\project\util_jm86\project\bin\lencod.sbr
-d:\design\video code\project\util_jm86\project\bin\loopfilter.sbr
-d:\design\video code\project\util_jm86\project\bin\macroblock.sbr
-d:\design\video code\project\util_jm86\project\bin\mbuffer.sbr
-d:\design\video code\project\util_jm86\project\bin\mb_access.sbr
-d:\design\video code\project\util_jm86\project\bin\memalloc.sbr
-d:\design\video code\project\util_jm86\project\lencod\debug\memalloc.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\mb_access.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\mbuffer.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\macroblock.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\loopfilter.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\lencod.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\leaky_bucket.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\intrarefresh.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\image.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\header.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\fmo.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\filehandle.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\fast_me.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\decoder.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\context_ini.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\configfile.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\cabac.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\block.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\biariencode.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\annexb.obj
-d:\design\video code\project\util_jm86\project\bin\mv-search.sbr
-d:\design\video code\project\util_jm86\project\bin\nal.sbr
-d:\design\video code\project\util_jm86\project\bin\nalu.sbr
-d:\design\video code\project\util_jm86\project\bin\nalucommon.sbr
-d:\design\video code\project\util_jm86\project\bin\output.sbr
-d:\design\video code\project\util_jm86\project\bin\parset.sbr
-d:\design\video code\project\util_jm86\project\bin\parsetcommon.sbr
-d:\design\video code\project\util_jm86\project\bin\ratectl.sbr
-d:\design\video code\project\util_jm86\project\bin\rdopt.sbr
-d:\design\video code\project\util_jm86\project\bin\rdopt_coding_state.sbr
-d:\design\video code\project\util_jm86\project\bin\refbuf.sbr
-d:\design\video code\project\util_jm86\project\bin\rtp.sbr
-d:\design\video code\project\util_jm86\project\bin\sei.sbr
-d:\design\video code\project\util_jm86\project\bin\slice.sbr
-d:\design\video code\project\util_jm86\project\bin\vlc.sbr
-d:\design\video code\project\util_jm86\project\bin\weighted_prediction.sbr
-d:\design\video code\project\util_jm86\project\bin\event.sbr
-d:\design\video code\project\util_jm86\project\bin\util.sbr
-d:\design\video code\project\util_jm86\project\lencod\debug\util.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\event.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\weighted_prediction.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\vlc.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\slice.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\sei.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\rtp.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\refbuf.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\rdopt_coding_state.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\rdopt.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\ratectl.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\parsetcommon.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\parset.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\output.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\nalucommon.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\nalu.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\nal.obj
-d:\design\video code\project\util_jm86\project\lencod\debug\mv-search.obj
-d:\design\video code\project\jm_test\bin\lencod.ilk
-d:\design\video code\project\jm_test\bin\lencod.exe
-d:\design\video code\project\jm_test\lencod\debug\lencod.pdb
-d:\design\video code\project\util_jm86\project\bin\lencod.ilk
-d:\design\video code\project\util_jm86\project\bin\lencod.exe
-d:\design\video code\project\util_jm86\project\lencod\debug\lencod.pdb
-d:\design\video code\project\util_jm86\project\bin\lencod.res
-d:\design\video code\project\util_jm86\project\.\bin\lencod.exe
-d:\design\video code\project\util_jm86\project\bin\lencod.tlog\bscmake.command.1.tlog
-d:\design\video code\project\util_jm86\project\bin\lencod.tlog\bscmake.read.1.tlog
-d:\design\video code\project\util_jm86\project\bin\lencod.tlog\bscmake.write.1.tlog
-d:\design\video code\project\util_jm86\project\bin\lencod.tlog\cl.command.1.tlog
-d:\design\video code\project\util_jm86\project\bin\lencod.tlog\cl.read.1.tlog
-d:\design\video code\project\util_jm86\project\bin\lencod.tlog\cl.write.1.tlog
-d:\design\video code\project\util_jm86\project\bin\lencod.tlog\link.command.1.tlog
-d:\design\video code\project\util_jm86\project\bin\lencod.tlog\link.read.1.tlog
-d:\design\video code\project\util_jm86\project\bin\lencod.tlog\link.write.1.tlog
-d:\design\video code\project\util_jm86\project\bin\lencod.tlog\rc.command.1.tlog
-d:\design\video code\project\util_jm86\project\bin\lencod.tlog\rc.read.1.tlog
-d:\design\video code\project\util_jm86\project\bin\lencod.tlog\rc.write.1.tlog
+d:\design\video\project\util_jm86_2013\project\lencod\debug\lencod.bsc
+d:\design\video\project\util_jm86_2013\project\lencod\debug\vc120.pdb
+d:\design\video\project\util_jm86_2013\project\lencod\debug\vc120.idb
+d:\design\video\project\util_jm86_2013\project\bin\annexb.sbr
+d:\design\video\project\util_jm86_2013\project\bin\biariencode.sbr
+d:\design\video\project\util_jm86_2013\project\bin\block.sbr
+d:\design\video\project\util_jm86_2013\project\bin\cabac.sbr
+d:\design\video\project\util_jm86_2013\project\bin\configfile.sbr
+d:\design\video\project\util_jm86_2013\project\bin\context_ini.sbr
+d:\design\video\project\util_jm86_2013\project\bin\decoder.sbr
+d:\design\video\project\util_jm86_2013\project\bin\fast_me.sbr
+d:\design\video\project\util_jm86_2013\project\bin\filehandle.sbr
+d:\design\video\project\util_jm86_2013\project\bin\fmo.sbr
+d:\design\video\project\util_jm86_2013\project\bin\header.sbr
+d:\design\video\project\util_jm86_2013\project\bin\image.sbr
+d:\design\video\project\util_jm86_2013\project\bin\intrarefresh.sbr
+d:\design\video\project\util_jm86_2013\project\bin\leaky_bucket.sbr
+d:\design\video\project\util_jm86_2013\project\bin\lencod.sbr
+d:\design\video\project\util_jm86_2013\project\bin\loopfilter.sbr
+d:\design\video\project\util_jm86_2013\project\bin\macroblock.sbr
+d:\design\video\project\util_jm86_2013\project\bin\mbuffer.sbr
+d:\design\video\project\util_jm86_2013\project\bin\mb_access.sbr
+d:\design\video\project\util_jm86_2013\project\bin\memalloc.sbr
+d:\design\video\project\util_jm86_2013\project\lencod\debug\memalloc.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\mb_access.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\mbuffer.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\macroblock.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\loopfilter.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\lencod.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\leaky_bucket.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\intrarefresh.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\image.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\header.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\fmo.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\filehandle.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\fast_me.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\decoder.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\context_ini.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\configfile.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\cabac.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\block.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\biariencode.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\annexb.obj
+d:\design\video\project\util_jm86_2013\project\bin\mv-search.sbr
+d:\design\video\project\util_jm86_2013\project\bin\nal.sbr
+d:\design\video\project\util_jm86_2013\project\bin\nalu.sbr
+d:\design\video\project\util_jm86_2013\project\bin\nalucommon.sbr
+d:\design\video\project\util_jm86_2013\project\bin\output.sbr
+d:\design\video\project\util_jm86_2013\project\bin\parset.sbr
+d:\design\video\project\util_jm86_2013\project\bin\parsetcommon.sbr
+d:\design\video\project\util_jm86_2013\project\bin\ratectl.sbr
+d:\design\video\project\util_jm86_2013\project\bin\rdopt.sbr
+d:\design\video\project\util_jm86_2013\project\bin\rdopt_coding_state.sbr
+d:\design\video\project\util_jm86_2013\project\bin\refbuf.sbr
+d:\design\video\project\util_jm86_2013\project\bin\rtp.sbr
+d:\design\video\project\util_jm86_2013\project\bin\sei.sbr
+d:\design\video\project\util_jm86_2013\project\bin\slice.sbr
+d:\design\video\project\util_jm86_2013\project\bin\vlc.sbr
+d:\design\video\project\util_jm86_2013\project\bin\weighted_prediction.sbr
+d:\design\video\project\util_jm86_2013\project\bin\event.sbr
+d:\design\video\project\util_jm86_2013\project\bin\hide.sbr
+d:\design\video\project\util_jm86_2013\project\bin\util.sbr
+d:\design\video\project\util_jm86_2013\project\bin\util264.sbr
+d:\design\video\project\util_jm86_2013\project\lencod\debug\util264.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\util.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\hide.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\event.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\weighted_prediction.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\vlc.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\slice.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\sei.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\rtp.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\refbuf.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\rdopt_coding_state.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\rdopt.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\ratectl.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\parsetcommon.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\parset.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\output.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\nalucommon.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\nalu.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\nal.obj
+d:\design\video\project\util_jm86_2013\project\lencod\debug\mv-search.obj
+d:\design\video\project\util_jm86_2013\project\bin\watermark.sbr
+d:\design\video\project\util_jm86_2013\project\lencod\debug\watermark.obj
+d:\design\video\project\util_jm86_2013\project\bin\truehide.sbr
+d:\design\video\project\util_jm86_2013\project\lencod\debug\truehide.obj
+d:\design\video\project\util_jm86_2013\project\bin\nsc.sbr
+d:\design\video\project\util_jm86_2013\project\lencod\debug\nsc.obj
+d:\design\video\project\util_jm86_2013\project\bin\lencod.ilk
+d:\design\video\project\util_jm86_2013\project\bin\lencod.exe
+d:\design\video\project\util_jm86_2013\project\bin\lencod.pdb
+d:\design\video\project\util_jm86_2013\project\bin\ldecod.ilk
+d:\design\video\project\util_jm86_2013\project\bin\lencod.res
+d:\design\video\project\util_jm86_2013\project\bin\ldecod.pdb
+d:\design\video\project\util_jm86_2013\project\bin\ldecod.bsc
+d:\design\video\project\util_jm86_2013\project\bin\lencod.bsc
+d:\design\video\project\util_jm86_2013\project\bin\biaridecod.sbr
+d:\design\video\project\util_jm86_2013\project\bin\erc_api.sbr
+d:\design\video\project\util_jm86_2013\project\bin\erc_do_i.sbr
+d:\design\video\project\util_jm86_2013\project\bin\erc_do_p.sbr
+d:\design\video\project\util_jm86_2013\project\bin\errorconcealment.sbr
+d:\design\video\project\util_jm86_2013\project\bin\ldecod.sbr
+d:\design\video\project\util_jm86_2013\project\bin\nal_part.sbr
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\bscmake.command.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\bscmake.read.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\bscmake.write.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\cl.command.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\cl.read.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\cl.write.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\link-cvtres.read.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\link-cvtres.write.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\link-rc.read.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\link-rc.write.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\link.1688-cvtres.read.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\link.1688-cvtres.write.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\link.1688-rc.read.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\link.1688-rc.write.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\link.1688.read.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\link.1688.write.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\link.command.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\link.read.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\link.write.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\rc.command.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\rc.read.1.tlog
+d:\design\video\project\util_jm86_2013\project\bin\lencod.tlog\rc.write.1.tlog

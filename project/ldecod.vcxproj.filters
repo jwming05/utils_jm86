@@ -2,21 +2,21 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{61384888-235d-42e4-82ea-99337bd01b29}</UniqueIdentifier>
+      <UniqueIdentifier>{94151776-f47d-48dd-8954-4af588cb762c}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{08ed0e95-e2c5-4273-a81e-c3b92e0dbd15}</UniqueIdentifier>
+      <UniqueIdentifier>{13d7ded9-01e0-4e9f-8f56-62466601c712}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
     <Filter Include="user">
-      <UniqueIdentifier>{a4f46b87-4e19-419e-8b25-a413efbc26bf}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="user\inc">
-      <UniqueIdentifier>{7b7df9ad-5507-406d-be5c-19e5da358d9e}</UniqueIdentifier>
+      <UniqueIdentifier>{5426f903-9191-47bb-b45d-209d8bbc1fa6}</UniqueIdentifier>
     </Filter>
     <Filter Include="user\src">
-      <UniqueIdentifier>{b5272797-c437-436f-b003-a1961dd464d9}</UniqueIdentifier>
+      <UniqueIdentifier>{ca107dec-0f93-45dd-bb44-89e4ece1f1cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user\inc">
+      <UniqueIdentifier>{74d7a207-a003-40ba-9297-8bf8568cbcd7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -113,10 +113,10 @@
     <ClCompile Include="ldecod\user\src\event.c">
       <Filter>user\src</Filter>
     </ClCompile>
-    <ClCompile Include="ldecod\user\src\util.c">
+    <ClCompile Include="ldecod\user\src\hide.c">
       <Filter>user\src</Filter>
     </ClCompile>
-    <ClCompile Include="ldecod\user\src\hide.c">
+    <ClCompile Include="ldecod\user\src\util.c">
       <Filter>user\src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -217,14 +217,14 @@
     <ClInclude Include="ldecod\user\inc\event.h">
       <Filter>user\inc</Filter>
     </ClInclude>
-    <ClInclude Include="ldecod\user\inc\util.h">
+    <ClInclude Include="ldecod\user\inc\hide.h">
       <Filter>user\inc</Filter>
     </ClInclude>
-    <ClInclude Include="ldecod\user\inc\hide.h">
+    <ClInclude Include="ldecod\user\inc\util.h">
       <Filter>user\inc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\decoder.cfg" />
+    <CustomBuild Include="bin\decoder.cfg" />
   </ItemGroup>
 </Project>

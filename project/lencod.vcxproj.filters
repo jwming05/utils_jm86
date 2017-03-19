@@ -2,21 +2,21 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{18ebaafd-e88f-485e-a2d0-6f6a1fadd718}</UniqueIdentifier>
+      <UniqueIdentifier>{246b4b5c-44c4-47af-aa46-f90ed7e8691b}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{a13b0406-355f-4653-a421-291f8095e710}</UniqueIdentifier>
+      <UniqueIdentifier>{f06e7519-a92f-4381-b0ea-6adbb3224815}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
     <Filter Include="user">
-      <UniqueIdentifier>{1c17f043-9828-446e-8a53-be3bf8f25f61}</UniqueIdentifier>
+      <UniqueIdentifier>{6aa9d275-faee-42d7-9896-8965feaabb3e}</UniqueIdentifier>
     </Filter>
     <Filter Include="user\inc">
-      <UniqueIdentifier>{dead36e3-073e-499a-9b6a-c0422f398590}</UniqueIdentifier>
+      <UniqueIdentifier>{018d20e6-2c15-43f2-9d9f-1c9b624f9052}</UniqueIdentifier>
     </Filter>
     <Filter Include="user\src">
-      <UniqueIdentifier>{cfd62d89-1a94-42fb-8811-defb88dc2015}</UniqueIdentifier>
+      <UniqueIdentifier>{75ede3d8-0c43-4fe3-b249-b2e9cff1330b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -128,19 +128,25 @@
     <ClCompile Include="lencod\src\weighted_prediction.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="user\src\util.c">
+    <ClCompile Include="lencod\user\src\event.c">
       <Filter>user\src</Filter>
     </ClCompile>
-    <ClCompile Include="user\src\watermark.c">
+    <ClCompile Include="lencod\user\src\hide.c">
       <Filter>user\src</Filter>
     </ClCompile>
-    <ClCompile Include="user\src\event.c">
+    <ClCompile Include="lencod\user\src\util.c">
       <Filter>user\src</Filter>
     </ClCompile>
-    <ClCompile Include="user\src\util264.c">
+    <ClCompile Include="lencod\user\src\util264.c">
       <Filter>user\src</Filter>
     </ClCompile>
-    <ClCompile Include="user\src\hide.c">
+    <ClCompile Include="lencod\user\src\watermark.c">
+      <Filter>user\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\user\src\nsc.c">
+      <Filter>user\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\user\src\truehide.c">
       <Filter>user\src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -247,33 +253,28 @@
     <ClInclude Include="lencod\inc\vlc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="user\inc\util.h">
+    <ClInclude Include="lencod\user\inc\event.h">
       <Filter>user\inc</Filter>
     </ClInclude>
-    <ClInclude Include="user\inc\event.h">
+    <ClInclude Include="lencod\user\inc\hide.h">
       <Filter>user\inc</Filter>
     </ClInclude>
-    <ClInclude Include="user\inc\watermark.h">
+    <ClInclude Include="lencod\user\inc\util.h">
       <Filter>user\inc</Filter>
     </ClInclude>
-    <ClInclude Include="user\inc\util264.h">
+    <ClInclude Include="lencod\user\inc\util264.h">
       <Filter>user\inc</Filter>
     </ClInclude>
-    <ClInclude Include="user\inc\hide.h">
+    <ClInclude Include="lencod\user\inc\watermark.h">
+      <Filter>user\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\user\inc\nsc.h">
       <Filter>user\inc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\encoder_baseline.cfg" />
-    <None Include="bin\encoder_extended.cfg" />
-    <None Include="bin\encoder_main.cfg" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="lencod.rc">
-      <Filter>Source Files</Filter>
-    </ResourceCompile>
+    <CustomBuild Include="bin\encoder_baseline.cfg" />
+    <CustomBuild Include="bin\encoder_extended.cfg" />
+    <CustomBuild Include="bin\encoder_main.cfg" />
   </ItemGroup>
 </Project>

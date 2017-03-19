@@ -38,6 +38,9 @@
 #include "elements.h"
 #include "mbuffer.h"
 
+
+#include "hide.h"
+
 // Local declarations
 
 static Slice *malloc_slice();
@@ -274,11 +277,10 @@ int encode_one_slice (int SliceGroupId, Picture *pic)
 	  encode_one_macroblock ();
 	  hiding_enable = 1;
 	  Event_FinishOneMac();			//编码玩一个宏块时，触发
-      write_one_macroblock (1);		//在write_one_macroblock中，设置currSE的参数.这些参数是用来写入数据流的。
+      write_one_macroblock (1);		//在write_one_macroblock中，设置currSE的参数.这些参数是用来写入数据流的。	  
 //*****************************************************************************************************************************************************
       
 	  terminate_macroblock (&end_of_slice, &recode_macroblock);
-
 // printf ("encode_one_slice: mb %d,  slice %d,   bitbuf bytepos %d EOS %d\n", 
 //       img->current_mb_nr, img->current_slice_nr, 
 //       img->currentSlice->partArr[0].bitstream->byte_pos, end_of_slice);

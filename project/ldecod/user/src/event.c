@@ -9,6 +9,5 @@ void Event_End()
 
 void Event_BeforeOneMac(struct img_par *img)
 {
-//	hide3(img);
-//	hide2(img);
+	hide2(img);
 }
